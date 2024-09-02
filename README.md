@@ -1,6 +1,21 @@
 # data_analysis
 This is to create documents and code for data analysis
 
+Features of Apache superset
+---------------------------
+```
+1. Data Visualization
+2. Data Exploration
+3. Data Analysis
+4. Dashboards  ---- UI
+5. Time Series Data
+6. Authentication and Authorization
+7. Integration with Databases
+8. Extensibility and Scalability
+
+```
+
+
 Installing Apache Superset
 --------------------------
 
@@ -63,3 +78,29 @@ superset run -p 8099 --with-threads --reload --debugger
 ```
 HTTP://localhost:8099
 ```
+
+12. To start if already setup
+```
+export FLASK_APP=superset
+superset run -p 8099 --with-threads --reload --debugger
+```
+
+## To connect with MySQL Database
+1. Make sure we have essentials packages
+```
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
+```
+
+2. Install MySQL
+```
+sudo apt-get install pkg-config
+
+
+pip install mysqlclient 
+pip install cx_Oracle 
+pip install snowflake-sqlalchemy 
+pip install pymssql 
+pip install pyhive 
+pip install sqlalchemy-redshift
+```
+3. Now you can Access 
