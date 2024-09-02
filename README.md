@@ -103,4 +103,4 @@ pip install pymssql
 pip install pyhive 
 pip install sqlalchemy-redshift
 ```
-3. Now you can Access 
+3. Now you can Access your MySQL Database
