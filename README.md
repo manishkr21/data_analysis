@@ -31,8 +31,7 @@ export FLASK_APP=superset
 ```
 5. Generate the secret key to set for flask based application
 ```
-openssl rand -base64 42
-export SUPERSET_SECRET_KEY="generated files"
+export SUPERSET_SECRET_KEY=$(openssl rand -base64 42)
 ```
 
 6. Initialize the database
